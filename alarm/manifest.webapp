@@ -1,0 +1,20 @@
+{
+  "name": "Alarm API example",
+  "description": "This is a example using the alarm API of Firefox OS",
+  "version": "1.0",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Fernando Ramirez"
+  },
+  "messages": [{ 
+	"alarm": "/index.html" 
+  }],
+  "installs_allowed_from": [],
+  "permissions": {
+	"alarms": {
+	  "description": "Requerido para soportar alarmas"
+	}
+  },
+  "icons": {
+  }
+}
