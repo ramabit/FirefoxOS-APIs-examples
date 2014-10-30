@@ -36,10 +36,16 @@ function obtenerAlarmas(){
 
 	request.onsuccess = function () {
   	this.result.forEach(function (alarm) {
-    console.log('Id: ' + alarm.id);
-    console.log('fecha: ' + alarm.date);
-    console.log('Timezone: ' + alarm.respectTimezone);
-    console.log('data: ' + JSON.stringify(alarm.data));
+    document.getElementById("listaAlarmas").value 
+    			+= 'Id: ' + alarm.id + "\n";
+    document.getElementById("listaAlarmas").value
+    			+='fecha: ' + alarm.date + "\n";
+    document.getElementById("listaAlarmas").value 
+    			+='Timezone: ' + alarm.respectTimezone + "\n";
+    document.getElementById("listaAlarmas").value +=
+    			'data: ' + JSON.stringify(alarm.data) + "\n";
+    document.getElementById("listaAlarmas").value +=
+    			"------------------------------   \n";
   	});
 	};
 
