@@ -3,7 +3,7 @@ function encontrame() {
   var output = document.getElementById("out");
   
   if (!navigator.geolocation){
-    output.innerHTML = "<p>Geolocation is not supported by your browser</p>";
+    output.innerHTML = "<p>La geolocalizacion no esta soportada por su navegador</p>";
     return;
   }
 
@@ -13,7 +13,7 @@ function encontrame() {
    }
 
    function geo_error() {
-    alert("Sorry, no position available.");
+    alert("Su posicion no esta disponible");
    }
 
    navigator.geolocation.getCurrentPosition(geo_success, geo_error);
