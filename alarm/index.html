@@ -4,27 +4,26 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     	<title>Alarm API example</title>
 		
+			<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 			<script type="text/javascript" src="/functions.js"></script>
 		
 	</head>
 	<body>
-		<div>
-			<button onClick="agregarAlarma()">Agregar alarma</button>
-		</div>
-
-		<div>
-			<button onClick="borrarAlarma()">Borrar alarma</button>
-		</div>
-
-		<div>
+		
+		<div id="botObtenerAlarmas">
 			<button onClick="obtenerAlarmas()">Obtener todas las alarmas</button>
 		</div>
 		
 		<textarea id="listaAlarmas" rows="20" cols="50"></textarea>
 
 		<script type="text/javascript">
-			dispararAlarma()
+			dispararAlarmas()
 		</script>
+		
+		<div id="divAB">
+			<button onClick="agregarAlarma()">Agregar alarma</button>
+			<button onClick="borrarAlarma()">Borrar alarma</button>
+		</div>
 
 	</body>
 </html>
