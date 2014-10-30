@@ -7,7 +7,7 @@
     "name": "Fernando Ramirez"
   },
   "messages": [{ 
-	"alarm": "/index.html" 
+	  "alarm": "/functions.js" 
   }],
   "installs_allowed_from": [],
   "permissions": {
