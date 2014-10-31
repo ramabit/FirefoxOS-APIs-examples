@@ -1,0 +1,21 @@
+{
+  "name": "Geolocation API example",
+  "description": "This is an example using the geo API of Firefox OS",
+  "version": "1.0",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Fernando Ramirez"
+  },
+  "installs_allowed_from": [],
+  "messages": [
+    { "push": "/index.html"},
+    { "push-register": "/index.html"}
+  ],
+  "permissions": {
+    "push": {
+      "description": "Requerido para mandar mensajes push"
+     }
+   },
+  "icons": {
+  }
+}
