@@ -1,0 +1,12 @@
+{
+  "name": "Mobile Network Info API example",
+  "description": "Este es un ejemplo de uso de la api de informacion de red de Firefox OS",
+  "version": "1.0",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Fernando Ramirez"
+  },
+  "installs_allowed_from": [],
+  "icons": {
+  }
+}

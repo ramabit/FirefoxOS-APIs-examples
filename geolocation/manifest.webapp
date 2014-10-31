@@ -1,6 +1,6 @@
 {
   "name": "Geolocation API example",
-  "description": "This is an example using the geo API of Firefox OS",
+  "description": "Esto es un ejemplo de uso de la api de geolocalizacion de Firefox OS",
   "version": "1.0",
   "launch_path": "/index.html",
   "developer": {

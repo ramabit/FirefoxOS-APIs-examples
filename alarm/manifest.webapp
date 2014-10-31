@@ -1,6 +1,6 @@
 {
   "name": "Alarm API example",
-  "description": "This is an example using the alarm API of Firefox OS",
+  "description": "Esto es un ejemplo de uso de la api de alarmas de Firefox OS",
   "version": "1.0",
   "launch_path": "/index.html",
   "developer": {

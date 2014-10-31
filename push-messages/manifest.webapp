@@ -1,6 +1,6 @@
 {
-  "name": "Geolocation API example",
-  "description": "This is an example using the geo API of Firefox OS",
+  "name": "Push messages API example",
+  "description": "Esto es un ejemplo de envio de mensajes push en Firefox OS",
   "version": "1.0",
   "launch_path": "/index.html",
   "developer": {
