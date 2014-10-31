@@ -1,5 +1,5 @@
 function obtenerNombreRedLargo(){
-  return navigator.mozMobileConnection.data.network.longName;
+  return navigator.mozMobileConnection.data.longName;
 }
 
 function obtenerNombreRedCorto(){
@@ -18,5 +18,17 @@ function obtenerMNC(){
 function obtenerEstadoRed(){
   return navigator.mozMobileConnection.data.network.state;
 }
+
+//document.getElementsByTagName('button').onclick 
+window.onload= function(){
+  console.log("dale")
+	nombreLargo.innerHTML = "Nombre de red (largo): " + obtenerNombreRedLargo();
+  	nombreCorto.innerHTML = "Nombre de red (corto): " + obtenerNombreRedCorto();
+  	mcc.innerHTML = "MCC: " + obtenerMCC();
+  	mnc.innerHTML = "MNC: " + obtenerMNC()
+  	estado.innerHTML = "Estado de red: " + obtenerEstadoRed()
+}
+
+
 
 
